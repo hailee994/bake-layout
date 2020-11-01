@@ -293,6 +293,12 @@ button:hover {
   padding: 0 0 50px;
 }
 
+.gallery h1 {
+  font-size: 3rem;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
 .gallery__item {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -393,12 +399,20 @@ button:hover {
   text-align: center;
 }
 
+.team h1 {
+  font-size: 3rem;
+  color: white;
+  padding-top: 3%;
+  margin-bottom: 2%;
+}
+
 .team__content {
   width: 80%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px 30px;
+  padding-bottom: 3%;
 }
 
 .team__item {
@@ -494,6 +508,12 @@ button:hover {
   padding: 20px 0;
 }
 
+.feedback h1 {
+  font-size: 3rem;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
 .feedback__content {
   width: 80%;
   margin: 0 auto;
@@ -526,6 +546,12 @@ button:hover {
   text-align: center;
 }
 
+.contact h1 {
+  font-size: 3rem;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
 .contact__form form {
   width: 60%;
   margin: 0 auto;
@@ -533,6 +559,7 @@ button:hover {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   padding: 20px 0;
+  margin-bottom: 2%;
 }
 
 .contact__form textarea {
@@ -580,6 +607,7 @@ button:hover {
 .contact__form form input[type="submit"]:hover {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 
 .contact__form form input {
